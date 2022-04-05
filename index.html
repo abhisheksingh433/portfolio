@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Responsive Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="js/custom.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+<header>
+	<nav>
+		<div class="logo">PORTFO<span>LIO</span></div>
+		<div class="menu">
+			<a href="#"> Home</a>
+			<a href="#"> About</a>
+			<a href="#"> Skills</a>
+			<a href="#"> Projects</a>
+			<a href="#"> Contact</a>
+		</div>
+	</nav>
+
+    <div class="text">
+    	<p>Hello, I am</p>
+    	<h1>Abhishek Singh</h1>
+    	<p>And I am a Front End Developer</p>
+    	<button class="c-btn">Hire me</button>
+    </div>
+</header>
+<section id="about">
+    	<div class="section-info">
+    		<h1>About</h1>
+    		<p>Who i am?</p>
+    	</div>
+
+
+    	<div class="about-row">
+    		<div class="about-left-col">
+    			<img src="image/about.jpeg">
+    		</div>
+
+    		<div class="about-right-col">
+    			<p id="p-title">
+    				Hello, I'm Abhishek & I'm a Data scientist
+    			</p>
+    			<p> 
+    				Currently a student in SRM institute of Science and Technology KTR persuring
+    				my graduction Presently I am learning Front End Developer and alongside my 
+    				work on Machine Learing. Also prepering for the AWS CCP.
+    			</p>
+    			<button class="c-btn">Download CV</button>
+    		</div>
+    	</div>
+
+    </section>
+
+
+        <section id="Skills">
+        	<div class="section-info">
+    		<h1 style="color: white;">Skill's</h1>
+    		<p>Who i am?</p>
+    	</div>
+
+    	<div class="skills-row">
+    		<div class="skills-left-col">
+    			<p>
+    				My skills lie in web development using MERN stock and AL and ML
+    				using tensoeflow I am knowledgeable in MYSQL and i am also
+    				familiar with C, C++, Java, Python,PHP,HTML,CSS and JS.
+    			</p>
+    			<button class="c-btn">Read more</button>
+
+    		</div>
+    		<div class="skills-right-col">
+    			<div class="progress-div">
+    				<p>
+    				<span>HTML</span><br>
+    				<progress value="80" max="100"></progress>
+    				<span>80%</span>
+    			</p>
+    			<p>
+    				<span>CSS</span><br>
+    				<progress value="70" max="100"></progress>
+    				<span>80%</span>
+    			</p>
+    			<p>
+    				<span>MySQL</span><br>
+    				<progress value="50" max="100"></progress>
+    				<span>80%</span>
+    			</p>
+    			<p>
+    				<span>Python</span><br>
+    				<progress value="80" max="100"></progress>
+    				<span>80%</span>
+    			</p>
+    			<p>
+    				<span>C++</span><br>
+    				<progress value="60" max="100"></progress>
+    				<span>80%</span>
+    			</p>
+    			<p>
+    				<span>JAVASCRIPT</span><br>
+    				<progress value="50" max="100"></progress>
+    				<span>80%</span>
+    			</p>
+    			</div>
+    		</div>
+        </section>
+
+          <section id="Projects">
+          	<div class="section-info">
+    		<h1>My Projects</h1>
+    		<p>My Work</p>
+    	</div>
+
+    	<div class="Projects-row">
+    		<div class="Projects">
+    			<img src="image/b2.png">
+    			<h2>project1</h2>
+    			<p>None</p>
+    		</div>
+    		<div class="Projects-box">
+    			<img src="image/b2.png">
+    			<h2>project2</h2>
+    			<p>None</p>
+    		</div>
+    		<div class="Projects-box">
+    			<img src="image/b2.png">
+    			<h2>project3</h2>
+    			<p>None</p>
+    		</div>
+          	
+          </section>
+
+
+          <section id="Contact">
+
+          	<div class="section-info" style="color: white;">
+    		<h1>Get in Touch</h1>
+    		<p style="color: black;">I am Available</p>
+    	</div>
+          	<div class="Contact-row">
+          		<div class="Contact-left-col">
+          			<img src="image/b3.png">
+          		</div>
+          		<div class="Contact-right-col">
+          			<form>
+          				<h2>Connect me</h2>
+          				<input type="text" name=""placeholder="Name">
+          				<input type="email" name=""placeholder="E-mail">
+          				<br>
+          				<textarea cols="40"rows="10"placeholder="Message"></textarea>
+          				<br>
+          				<button class="c-btn">Submit</button>
+          		</div>
+
+          	</div>
+          	
+          </section>
+
+
+          	
+          	<section id="footer">
+          		<h2>Developed by Abhishek Singh</h2>
+          		<img src="image/icon.png"width= "100">
+          		
+          	</section>
+          
+<script type="js/jquery.ripples-min.js"></script>
+
+<script>
+	jQuery(document).ready(function(){
+	$('header').ripples({
+  dropRadius: 20,
+  perturbance: 0.03,
+});
+    });
+</script>
+
+
+
+
+
+</body>
+</html>
